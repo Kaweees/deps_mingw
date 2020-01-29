@@ -1,0 +1,5 @@
+[submodule "zenbuild"]
+	path = zenbuild
+	url = https://github.com/gpac/zenbuild.git
+	branch = mingw
+	ignore = dirty
