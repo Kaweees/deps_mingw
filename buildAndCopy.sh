@@ -6,6 +6,8 @@ GPAC_DIR=$1
 
 pushd zenbuild
 
+rm -f build/flags/x86_64-w64-mingw32/gpacdeps.built
+
 bash -x ./zenbuild.sh build gpacdeps -
 
 popd
