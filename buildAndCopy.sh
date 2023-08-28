@@ -14,7 +14,7 @@ popd
 
 mkdir -p "$GPAC_DIR"/bin/gcc "$GPAC_DIR"/extra_lib/lib/gcc "$GPAC_DIR"/extra_lib/include
 
-cp -av zenbuild/build/release/x86_64-w64-mingw32/include/* "$GPAC_DIR"/extra_lib/include/
+cp -av zenbuild/build/symlinks/x86_64-w64-mingw32/include/* "$GPAC_DIR"/extra_lib/include/
 
 mv -v "$GPAC_DIR"/extra_lib/include/freetype2 "$GPAC_DIR"/extra_lib/include/freetype
 mv -v "$GPAC_DIR"/extra_lib/include/ft2build.h "$GPAC_DIR"/extra_lib/include/freetype/
